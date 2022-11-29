@@ -6,7 +6,7 @@ We need to retrieve the data from CAMS and ARPA first, where only the data in th
 
 - CAMS: Through API (3-year Rolling Archive). The data are stored in .nc format. 
 - ARPA (Ground Sensor): Through Socrata API method to retrieve data in the current year or the data from previous year in .csv format. The data from ground sensors are not used in later process in this project but might be useful in other case studies. 
-- ARPA (Interpolated): Through direct URL request (2020 and 2021 Available). The data are stored in .txt format compressed in zip files. 
+- ARPA (Interpolated): Through direct URL request (Available from 2018-2021). The data are stored in .txt format compressed in zip files. 
 
 ## 2. Data Process of ARPA (Interpolated)
 
