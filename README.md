@@ -22,6 +22,8 @@ root/
 │   ├── Dominio_4km.csv                           # Sheet file containing UTM coordinates to pair with data in 2018 and 2019
 │   ├── 2018                                      # ARPA interpolated data in 2018
 │   │   ├── NO2
+│   │   │   ├── NO220180101.txt
+│   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
 │   │   ├── PM25
@@ -39,7 +41,9 @@ root/
 │   ├── 2021
 ├── CAMS/                                         # Folder containing CAMS data
 │   ├── 2020                                      # CAMS data in 2020
-│   │   ├── NO2                                   
+│   │   ├── NO2
+│   │   │   ├── NO2202001.nc
+│   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
 │   │   ├── PM25
