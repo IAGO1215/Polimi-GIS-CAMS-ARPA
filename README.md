@@ -11,7 +11,7 @@ Additionally, the shapefile of the Lombardy region can be found in the NUTS data
 1. CAMS: [European Air Quality Forecast](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview)
 2. ARPA Ground Sensors: [ARPA Elenco Data Pubblicati](https://www.dati.lombardia.it/widgets/8ask-gxyr)
 3. ARPA Interpolated: Sistema Modellistico ARPA Lombardia
-4. NUTS: [Shapefiles](https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2021-files.html)
+4. NUTS: [NUTS RG 2021 4326](https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2021-files.html)
 5. DUSAF Landuse: [DUSAF 6.0 (2018)](https://www.geoportale.regione.lombardia.it/metadati?p_p_id=detailSheetMetadata_WAR_gptmetadataportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_detailSheetMetadata_WAR_gptmetadataportlet_uuid=%7B18EE7CDC-E51B-4DFB-99F8-3CF416FC3C70%7D)
 
 ## Folder Structure
