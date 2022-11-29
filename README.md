@@ -4,7 +4,7 @@ We need to retrieve the data from CAMS and ARPA (Interpolated) first, where only
 
 After requesting the data, we need to process the ARPA data (.txt file) first. To be more specific, we need to combine the interpolated ARPA data with the sheet file which contains the geographical coordinate data. 
 
-Then, we need to process the CAMS data (.nc file), adjusting its longitude from 0->360 to -180->180, re-formatting its timestamp, 
+Then, we need to process the CAMS data (.nc file) before we do analysis to it, such as adjusting its longitude from 0->360 to -180->180, re-formatting its timestamp and calculate averages along its dimensions so that we can transfer the xarray dataset into geopandas geodataframe. 
 
 ## 1. Retrieve data from CAMS and ARPA (Interpolated)
 
