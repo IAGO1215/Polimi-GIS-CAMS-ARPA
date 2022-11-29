@@ -2,6 +2,8 @@
 
 The air quality data can be retrieved from CAMS (Copernicus Atmosphere Monitoring Service) and ARPA (Agenzia Regionale per la Protezione dell'Ambiente), where only the data in the year of 2018, 2019, 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. 
 
+The shapefile of the Lombardy region can be found in the NUTS dataset. And DUSAF dataset is useful to analyze the air quality conditions according to land use. 
+
 ## Data Sources
 
 1. CAMS: [European Air Quality Forecast](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview)
