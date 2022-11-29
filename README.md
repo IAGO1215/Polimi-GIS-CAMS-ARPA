@@ -14,6 +14,42 @@ Additionally, the shapefile of the Lombardy region can be found in the NUTS data
 4. NUTS: [Shapefiles](https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2021-files.html)
 5. DUSAF Landuse: [DUSAF 6.0 (2018)](https://www.geoportale.regione.lombardia.it/metadati?p_p_id=detailSheetMetadata_WAR_gptmetadataportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_detailSheetMetadata_WAR_gptmetadataportlet_uuid=%7B18EE7CDC-E51B-4DFB-99F8-3CF416FC3C70%7D)
 
+## Folder Structure
+```
+root/ 
+├── ARPA/                                         # Folder containing ARPA interpolated data
+│   ├── Dominio_1km.csv                           # Sheet file containing UTM coordinates to pair with data in 2020 and 2021
+│   ├── Dominio_4km.csv                           # Sheet file containing UTM coordinates to pair with data in 2018 and 2019
+│   ├── 2018                                      # ARPA interpolated data in 2018
+│   │   ├── NO2
+│   │   ├── O3
+│   │   ├── PM10
+│   │   ├── PM25
+│   ├── 2019
+│   ├── 2020
+│   ├── 2021
+├── ARPA Ground Sensors/                          # Folder containing ARPA ground sensors data
+│   ├── 2018                                      # ARPA ground sensor data in 2018
+│   │   ├── NO2
+│   │   ├── O3
+│   │   ├── PM10
+│   │   ├── PM25
+│   ├── 2019
+│   ├── 2020
+│   ├── 2021
+├── CAMS/                                         # Folder containing CAMS data
+│   ├── 2020                                      # CAMS data in 2020
+│   │   ├── NO2                                   
+│   │   ├── O3
+│   │   ├── PM10
+│   │   ├── PM25
+│   ├── 2021
+│   ├── 2022
+├── DUSAF/                                        # DUSAF shapefile data
+├── Functions/                                    # Functions dump
+├── NUTS/                                         # NUTS shapefile data
+```
+
 ## Data Process
 
 ### 1. Retrieve data from CAMS and ARPA
