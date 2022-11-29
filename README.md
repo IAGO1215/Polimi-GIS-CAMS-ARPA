@@ -21,15 +21,23 @@ root/
 │   ├── Dominio_1km.csv                           # Sheet file containing UTM coordinates to pair with data in 2020 and 2021
 │   ├── Dominio_4km.csv                           # Sheet file containing UTM coordinates to pair with data in 2018 and 2019
 │   ├── 2018                                      # ARPA interpolated data in 2018
+│   │   ├── medie_giornaliere_2018.txt
+│   ├── 2019
+│   │   ├── medie_giornaliere_2019.txt
+│   ├── 2020
 │   │   ├── NO2
-│   │   │   ├── NO220180101.txt
+│   │   │   ├── NO220200101.txt
 │   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
 │   │   ├── PM25
-│   ├── 2019
-│   ├── 2020
 │   ├── 2021
+│   │   ├── NO2
+│   │   │   ├── NO220210101.txt
+│   │   │   ├── ...
+│   │   ├── O3
+│   │   ├── PM10
+│   │   ├── PM25
 ├── ARPA Ground Sensors/                          # Folder containing ARPA ground sensors data
 │   ├── 2018                                      # ARPA ground sensor data in 2018
 │   │   ├── NO2
