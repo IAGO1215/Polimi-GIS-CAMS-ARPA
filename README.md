@@ -21,12 +21,12 @@ root/
 │   ├── Dominio_1km.csv                           # Sheet file containing UTM coordinates to pair with data in 2020 and 2021
 │   ├── Dominio_4km.csv                           # Sheet file containing UTM coordinates to pair with data in 2018 and 2019
 │   ├── 2018                                      # ARPA interpolated data in 2018
-│   │   ├── medie_giornaliere_2018.txt
+│   │   ├── medie_giornaliere_2018.txt            # .txt file containing all the ARPA interpolated data of NO2, O3, PM 10 and PM 2.5 in 2018
 │   ├── 2019
-│   │   ├── medie_giornaliere_2019.txt
+│   │   ├── medie_giornaliere_2019.txt            # .txt file containing all the ARPA interpolated data of NO2, O3, PM 10 and PM 2.5 in 2019
 │   ├── 2020
 │   │   ├── NO2
-│   │   │   ├── NO220200101.txt
+│   │   │   ├── NO220200101.txt                   # .txt file containing all the ARPA interpolated data of NO2 on 1st January, 2018
 │   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
@@ -50,7 +50,7 @@ root/
 ├── CAMS/                                         # Folder containing CAMS data
 │   ├── 2020                                      # CAMS data in 2020
 │   │   ├── NO2
-│   │   │   ├── NO2202001.nc
+│   │   │   ├── NO2202001.nc                      # netcdf file containing all the data of NO2 in January, 2020
 │   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
