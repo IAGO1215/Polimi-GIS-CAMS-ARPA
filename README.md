@@ -1,11 +1,12 @@
 # Polimi-GIS-CAMS-ARPA
 
-We need to retrieve the data from CAMS and ARPA (Interpolated) first, where only the data in the year of 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. 
+We need to retrieve the data from CAMS and ARPA first, where only the data in the year of 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. 
 
-## 1. Retrieve data from CAMS and ARPA (Interpolated)
+## 1. Retrieve data from CAMS and ARPA
 
 - CAMS: Through API (3-year Rolling Archive). The data are stored in .nc format. 
-- ARPA: Through direct URL request (2020 and 2021 Available). The data are stored in .txt format compressed in zip files. 
+- ARPA (Ground Sensor): Through Socrata API method to retrieve data in the current year or the data from previous year in .csv format. The data from ground sensors are not used in later process in this project but might be useful in other case studies. 
+- ARPA (Interpolated): Through direct URL request (2020 and 2021 Available). The data are stored in .txt format compressed in zip files. 
 
 ## 2. Data Process of ARPA (Interpolated)
 
