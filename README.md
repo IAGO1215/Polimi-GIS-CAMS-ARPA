@@ -2,7 +2,7 @@
 
 This case study is focused on the Lombardia regoin, and the goal is to assess the data of air quality from the CAMS (Copernicus Atmosphere Monitoring Service) dataset, considering the ARPA (Agenzia Regionale per la Protezione dell'Ambiente) data as ground truth. 
 
-The air quality data in the year of 2018, 2019, 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. There are also ground sensors data from the ARPA dataset, but it is not recommended to use those point vector data to perform the data assessment since it might produce errors due to its insufficient data. 
+The air quality data in the year of 2018, 2019, 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. There are also ground sensors data from the ARPA dataset, but it is not recommended to use those point vector data to perform the data assessment since it might produce errors due to its insufficient quantity of available data. 
 
 Additionally, the shapefile of the Lombardy region can be found in the NUTS dataset. And DUSAF dataset is useful to analyze the air quality conditions according to land use. 
 
