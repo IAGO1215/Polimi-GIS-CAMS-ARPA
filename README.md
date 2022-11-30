@@ -1,6 +1,6 @@
 # Polimi-GIS-CAMS-ARPA
 
-This case study is mainly focused on the Lombardia regoin, and the goal is to assess the data of air quality from the CAMS (Copernicus Atmosphere Monitoring Service) dataset, considering the ARPA (Agenzia Regionale per la Protezione dell'Ambiente) data as ground truth. 
+This case study is mainly focused on the Lombardy regoin, and the goal is to assess the data of air quality from the CAMS (Copernicus Atmosphere Monitoring Service) dataset, considering the ARPA (Agenzia Regionale per la Protezione dell'Ambiente) data as ground truth. 
 
 The air quality data in the year of 2018, 2019, 2020 and 2021 are available in the ARPA (Interpolated) dataset, and the data in the year of 2020, 2021 and 2022 are available in the CAMS dataset currently. There are also ground sensors data from the ARPA dataset, but it is not recommended to use those point vector data to perform the data assessment since it might produce errors due to its insufficient quantity of available data. 
 
