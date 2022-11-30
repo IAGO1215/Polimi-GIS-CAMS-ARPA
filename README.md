@@ -105,3 +105,10 @@ root/
 1. Import the ARPA dataset and the upscaled CAMS dataset. 
 2. Calculate the residuals at each pixel between the ARPA dataset and the upscaled CAMS dataset. 
 3. Calculate the biases between these two datasets. 
+
+## Credit
+
+1. [CAMS](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts): for providing precious satellite modelled data and API method to retrieve its data automatically. 
+2. Sistema Modellistico ARPA Lombardia: for providing URL to retrieve professionally interpolated ARPA data. 
+3. [D-DUST Project](https://github.com/gisgeolab/D-DUST/tree/WP2): for providing essential guidance to retrieve ARPA ground sensor data via API. 
+4. [Wekeo](https://www.wekeo.eu/): for providing useful tutorials regarding CAMS data process and visualization. 
