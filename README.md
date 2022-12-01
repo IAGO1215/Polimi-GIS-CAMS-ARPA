@@ -50,11 +50,7 @@ root/
 ├── CAMS/                                         # Folder containing CAMS data
 │   ├── 2020                                      # CAMS data in 2020
 │   │   ├── NO2
-│   │   │   ├── NO2202001.nc                      # netcdf file containing all the data of NO2 in January, 2020
-│   │   │   ├── ...
-│   │   │   ├── Edit_NO2202001.nc                 # Standardized netcdf file
-│   │   │   ├── ...
-│   │   │   ├── Lom_NO2202001.nc                  # netcdf file containing all the data of NO2 in Lombardy in January, 2020
+│   │   │   ├── NO2202001.nc                      # netcdf file containing all the data of NO2 in January, 2020, as well as processed data which will be exported and saved here
 │   │   │   ├── ...
 │   │   ├── O3
 │   │   ├── PM10
