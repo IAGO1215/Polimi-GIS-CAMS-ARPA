@@ -6,8 +6,6 @@ Additionally, this project also includes an attempt to assess the CAMS data with
 
 As for the air quality data, the ARPA (Interpolated) dataset provides them in the year of 2018, 2019, 2020 and 2021 (temporary access), and the CAMS dataset offers its data in the year of 2020, 2021 and 2022 currently (3-year rolling archive). There are also ground sensors data from the ARPA dataset, but it is not recommended to use those point vector data to perform the data assessment since it can produce errors due to its insufficient quantity of available data. 
 
-Additionally, the shapefile of the Italy and the Lombardy region can be found in the NUTS dataset. And DUSAF dataset is useful to analyze the air quality conditions according to land use. 
-
 ## Data Sources
 
 1. CAMS: [European Air Quality Forecast](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview)
